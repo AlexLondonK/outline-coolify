@@ -36,6 +36,7 @@ services:
       POSTGRES_USER: 'user'
       POSTGRES_PASSWORD: 'pass'
       POSTGRES_DB: 'outline'
+      POSTGRES_HOST_AUTH_METHOD: 'trust'
 
 volumes:
   storage-data:
